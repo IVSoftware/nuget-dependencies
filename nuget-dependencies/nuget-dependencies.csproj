@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ClassLibA" Version="1.5.0" />
+    <PackageReference Include="ClassLibA" Version="*" />
   </ItemGroup>
 
 </Project>

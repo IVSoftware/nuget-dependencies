@@ -8,7 +8,7 @@
 		<PackageProjectUrl>https://github.com/IVSoftware/nuget-dependencies</PackageProjectUrl>
 
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<AssemblyVersion>1.5.0</AssemblyVersion>
+		<AssemblyVersion>1.6.0</AssemblyVersion>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Authors>IVSoft</Authors>
 		<Owner>IVSoft</Owner>
