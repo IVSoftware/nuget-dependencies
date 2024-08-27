@@ -1,7 +1,32 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<Title>ClassLibA</Title>
+		<Description>Demo Only</Description>
+		<PackageTags>portable;net;android;ios</PackageTags>
+		<RepositoryUrl>https://github.com/IVSoftware/nuget-dependencies</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/IVSoftware/nuget-dependencies</PackageProjectUrl>
+		<RootNamespace>IVSoftware.Demo</RootNamespace>
 
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>IVSoftware, Thomas C. Gregor</Authors>
+		<Owner>IVSoftware LLC</Owner>
+		<Copyright>Copyright © 2023 IVSoftware LLC</Copyright>
+		<FileVersion>$(AssemblyVersion)</FileVersion>
+		<Version>$(AssemblyVersion)</Version>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<!--SignAssembly>True</SignAssembly-->
+		<!--AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile-->
+		<DebugType>embedded</DebugType>
+		<PackageOutputPath>$(SolutionDir)\packages</PackageOutputPath>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 </Project>
