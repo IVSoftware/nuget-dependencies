@@ -3,13 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget-dependencies", "nuget-dependencies\nuget-dependencies.csproj", "{09CF8916-1459-467F-8832-DDC0C5C05A90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nuget-dependencies", "nuget-dependencies\nuget-dependencies.csproj", "{09CF8916-1459-467F-8832-DDC0C5C05A90}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19D76423-4031-4D36-88FE-8056700A87A2} = {19D76423-4031-4D36-88FE-8056700A87A2}
+		{9998ECBC-6746-4978-9AEE-5475076656FB} = {9998ECBC-6746-4978-9AEE-5475076656FB}
+		{B1FD10C9-0671-47B9-BA88-F3BAAB1DA073} = {B1FD10C9-0671-47B9-BA88-F3BAAB1DA073}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibB", "ClassLibB\ClassLibB.csproj", "{B1FD10C9-0671-47B9-BA88-F3BAAB1DA073}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibB", "ClassLibB\ClassLibB.csproj", "{B1FD10C9-0671-47B9-BA88-F3BAAB1DA073}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19D76423-4031-4D36-88FE-8056700A87A2} = {19D76423-4031-4D36-88FE-8056700A87A2}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibA", "ClassLibA\ClassLibA.csproj", "{9998ECBC-6746-4978-9AEE-5475076656FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibA", "ClassLibA\ClassLibA.csproj", "{9998ECBC-6746-4978-9AEE-5475076656FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19D76423-4031-4D36-88FE-8056700A87A2} = {19D76423-4031-4D36-88FE-8056700A87A2}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClassLib", "CommonClassLib\CommonClassLib.csproj", "{19D76423-4031-4D36-88FE-8056700A87A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonClassLib", "CommonClassLib\CommonClassLib.csproj", "{19D76423-4031-4D36-88FE-8056700A87A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
